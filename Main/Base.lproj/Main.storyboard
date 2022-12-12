@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TOY-Uu-bNQ">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="id3-zI-P6Z">
+            <objects>
+                <tabBarController id="TOY-Uu-bNQ" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Dhr-VY-563">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Zz3-gX-pHj" kind="relationship" relationship="viewControllers" id="K1v-Pr-jM9"/>
+                        <segue destination="JY4-Ro-sH6" kind="relationship" relationship="viewControllers" id="7aI-nS-9La"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nIt-Nq-VHH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1764" y="-565"/>
+        </scene>
+        <!--rootPokemonList-->
+        <scene sceneID="vaH-mu-ntx">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="rootPokemonList" storyboardName="PokemonList" referencedIdentifier="rootPokemonList" id="Zz3-gX-pHj" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="vgA-zQ-d19"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rbi-5q-k7W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-841" y="-717"/>
+        </scene>
+        <!--rootMyPokemon-->
+        <scene sceneID="xia-no-YWP">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="rootMyPokemon" storyboardName="MyPokemon" referencedIdentifier="rootMyPokemon" id="JY4-Ro-sH6" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="SSa-Bv-w1Y"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Who-kd-uUj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-867" y="-515"/>
+        </scene>
+    </scenes>
+</document>
